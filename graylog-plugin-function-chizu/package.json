@@ -1,0 +1,28 @@
+{
+  "name": "ChizuFunction",
+  "version": "1.0.0-SNAPSHOT",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "fgiannotti/graylog-plugin-function-chizu"
+  },
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint src",
+    "lint:path": "eslint",
+    "test": "jest"
+  },
+  "keywords": [
+    "graylog"
+  ],
+  "author": "Franco Giannotti <francogiannotti115@gmail.com>",
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": "graylog"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "graylog-web-plugin": "file:../graylog2-server/graylog2-web-interface/packages/graylog-web-plugin"
+  }
+}

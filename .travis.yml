@@ -21,6 +21,6 @@ deploy:
     - "${RELEASE_RPM_FILE}"
   skip_cleanup: true
   on:
-    tags: true
     repo: fgiannotti/graylog-plugin-function-chizu
+    tags: true
     jdk: oraclejdk8

@@ -14,7 +14,7 @@
  * along with this program. If not, see
  * <http://www.mongodb.com/licensing/server-side-public-license>.
  */
-package chizu;
+package com.fgt.plugins.chizu;
 
 import org.graylog2.plugin.PluginMetaData;
 import org.graylog2.plugin.ServerStatus;
@@ -32,7 +32,7 @@ public class ChizuFunctionMetaData implements PluginMetaData {
 
     @Override
     public String getUniqueId() {
-        return "chizu.ChizuFunctionPlugin";
+        return "com.fgt.plugins.chizu.ChizuFunctionPlugin";
     }
 
     @Override

@@ -14,7 +14,7 @@
  * along with this program. If not, see
  * <http://www.mongodb.com/licensing/server-side-public-license>.
  */
-package chizu;
+package com.fgt.plugins.chizu;
 
 import com.google.inject.Binder;
 import com.google.inject.TypeLiteral;
@@ -23,8 +23,6 @@ import org.graylog.plugins.pipelineprocessor.ast.functions.Function;
 import org.graylog2.plugin.PluginModule;
 
 import org.graylog2.plugin.PluginConfigBean;
-import org.graylog2.plugin.PluginModule;
-
 import java.util.Collections;
 import java.util.Set;
 

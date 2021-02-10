@@ -15,8 +15,6 @@ before_deploy:
   - echo "Deploying release to GitHub releases"
 deploy:
   provider: releases
-  api_key:
-    secure: <enter your encrypted GitHub access token>
   file:
     - "${RELEASE_PKG_FILE}"
     - "${RELEASE_DEB_FILE}"
@@ -24,4 +22,5 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
+    repo: fgiannotti/graylog-plugin-function-chizu
     jdk: oraclejdk8
